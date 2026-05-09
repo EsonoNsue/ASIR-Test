@@ -543,3 +543,289 @@
    - [x] **Capa de aplicación**
 
 ---
+
+###BLOQUE E
+
+## 1. ¿Qué elemento concentra pares a rosetas y se ubica en el rack?
+
+- [x] Patch panel
+- [ ] PDU
+- [ ] SAI/UPS
+- [ ] ONT
+
+## 2. ¿Qué altura de rack es típica en CPDs de planta?
+
+- [ ] 6U
+- [ ] 12U
+- [ ] 24U
+- [x] 42U
+
+## 3. ¿Qué medio se recomienda como backbone entre plantas si hay más de 100 m?
+
+- [ ] UTP Cat 5e
+- [ ] UTP Cat 6
+- [x] Fibra óptica
+- [ ] Coaxial fino
+
+## 4. ¿Qué comando en un switch Cisco muestra un resumen de VLANs y puertos?
+
+- [x] show vlan brief
+- [ ] show interfaces status
+- [ ] show vtp status
+- [ ] show spanning-tree
+
+## 5. ¿Qué comando verifica puertos en modo trunk y VLANs permitidas?
+
+- [ ] show ip interface brief
+- [x] show interfaces trunk
+- [ ] show cdp neighbors
+- [ ] show etherchannel summary
+
+## 6. ¿Qué comando permite ver el estado de STP y el root bridge actual?
+
+- [ ] show vtp status
+- [x] show spanning-tree
+- [ ] show mac address-table
+- [ ] show lldp neighbors
+
+## 7. En VTP, ¿qué se requiere para sincronizar switches en un dominio?
+
+- [x] Mismo dominio, contraseña MD5 y revisión coherente
+- [ ] Mismo hostname
+- [ ] Mismo número de VLANs locales
+- [ ] Mismo direccionamiento IP
+
+## 8. ¿Cuál de estos estándares corresponde a Wi-Fi 7?
+
+- [ ] 802.11ac
+- [ ] 802.11ax
+- [x] 802.11be
+- [ ] 802.11g
+
+## 9. ¿Qué mejoras clave introduce Wi-Fi 6/6E respecto a 5?
+
+- [ ] DSSS y FHSS
+- [x] OFDMA y MU-MIMO mejorado
+- [ ] Solo más potencia de transmisión
+- [ ] Cambio a 60 GHz
+
+## 10. ¿Qué afirmación sobre hubs es correcta?
+
+- [ ] Separan dominios de broadcast
+- [ ] Crean un dominio de colisión por puerto
+- [x] Operan en capa 1 y repiten señales
+- [ ] Aprenden direcciones MAC
+
+## 11. La dirección 255.255.255.255 es:
+
+- [ ] Broadcast dirigido
+- [x] Broadcast limitado
+- [ ] Loopback
+- [ ] Multicast
+
+## 12. En IPv6, ¿cuál es correcta sobre la compresión ‘::’?
+
+- [ ] Se puede usar múltiples veces en una misma dirección
+- [x] Solo puede usarse una vez por dirección
+- [ ] Solo en direcciones multicast
+- [ ] Sustituye cualquier hexadecimal no cero
+
+## 13. Las direcciones IPv4 de clase D se reservan para:
+
+- [x] Multicast
+- [ ] Anycast
+- [ ] Loopback
+- [ ] Privadas
+
+## 14. ¿Qué comando en Cisco crea una SVI para la VLAN 10?
+
+- [x] interface vlan 10
+- [ ] vlan interface 10
+- [ ] int svi 10
+- [ ] switchport vlan 10
+
+## 15. Para habilitar enrutamiento inter-VLAN en un switch L3 se requiere:
+
+- [x] ip routing
+- [ ] ip route 0.0.0.0 0.0.0.0
+- [ ] router ospf 1
+- [ ] vlan database
+
+## 16. ¿Qué comando de Cisco muestra el estado de las subinterfaces en un router?
+
+- [x] show ip interface brief
+- [ ] show ip protocols
+- [ ] show controllers
+- [ ] show arp
+
+## 17. En RIP v2, para desactivar el resumen automático se usa:
+
+- [ ] no autosummary
+- [x] no auto-summary
+- [ ] ip classless
+- [ ] no summary route
+
+## 18. En redes inalámbricas, el modo Ad-hoc significa:
+
+- [ ] Clientes conectados a un AP
+- [x] Dispositivos se conectan directamente entre sí
+- [ ] Backhaul punto-multipunto
+- [ ] Uso exclusivo de 6 GHz
+
+## 19. ¿Qué protocolo anuncia ‘Hello’ periódicos para descubrir vecinos en OSPF?
+
+- [ ] RIP
+- [ ] EIGRP
+- [ ] BGP
+- [x] OSPF
+
+## 20. En EIGRP, la dirección multicast utilizada es:
+
+- [ ] 224.0.0.5
+- [x] 224.0.0.10
+- [ ] 224.0.0.9
+- [ ] 239.255.255.250
+
+---
+###BLOQUE F
+
+## 1. ¿Qué comando verifica el estado de VTP en un switch Cisco?
+
+- [x] show vtp status
+- [ ] show vlan brief
+- [ ] show interfaces status
+- [ ] show etherchannel summary
+
+## 2. ¿Cuál es el propósito de ‘passive-interface’ en protocolos de routing?
+
+- [ ] Bloquear tráfico de datos
+- [x] No enviar actualizaciones por esa interfaz
+- [ ] Apagar la interfaz
+- [ ] Eliminar rutas redistribuidas
+
+## 3. ¿Qué solución inter-VLAN usa subinterfaces en el router?
+
+- [ ] SVI
+- [x] Router-on-a-stick
+- [ ] MPLS
+- [ ] HSRP
+
+## 4. ¿Qué registro DNS se usa para alias de un nombre a otro?
+
+- [ ] A
+- [ ] PTR
+- [x] CNAME
+- [ ] NS
+      
+## 5. ¿Qué protocolo traduce nombres a IP y es esencial para Internet?
+
+- [ ] NTP
+- [x] DNS
+- [ ] DHCP
+- [ ] LDAP
+
+## 6. ¿Cuál de los siguientes no es un estado de puerto en STP clásico?
+
+- [ ] Blocking
+- [ ] Listening
+- [ ] Learning
+- [x] Transmitting
+
+## 7. ¿Qué protocolo de seguridad de red perimetral traduce múltiples IP privadas a una sola pública por puertos?
+
+- [ ] NAT estático
+- [x] PAT (NAT Overload)
+- [ ] NAT dinámico 1:1
+- [ ] NAT64
+
+## 8. En una ACL extendida para bloquear HTTP hacia 10.10.10.5, ¿qué puerto se debe denegar?
+
+- [ ] 21
+- [ ] 23
+- [x] 80
+- [ ] 443
+
+## 9. En Cisco, las ACL estándar suelen numerarse en el rango:
+
+- [x] 1–99 y 1300–1999
+- [ ] 100–199
+- [ ] 2000–2699
+- [ ] 300–399
+
+## 10. ¿Qué comando guarda la configuración en la NVRAM?
+
+- [x] copy running-config startup-config
+- [ ] write erase
+- [ ] reload
+- [ ] copy startup-config running-config
+
+## 11. ¿Cuál es una recomendación al elegir contraseñas de administración en IOS?
+
+- [ ] Usar menos de 8 caracteres
+- [ ] Reutilizar la misma en todos los equipos
+- [x] enable secret y mezcla de tipos de caracteres
+- [ ] Solo números
+
+## 12. En Packet Tracer, el cable ‘Console’ conecta:
+
+- [x] PC a interfaz de consola del equipo
+- [ ] Switch a switch
+- [ ] Router a AP
+- [ ] PC a puerto WAN del router
+
+## 33. ¿Qué cable se usaba clásicamente para conectar router-router sin switches modernos?
+
+- [ ] UTP directo
+- [x] UTP cruzado
+- [ ] Coaxial
+- [ ] USB-C
+
+## 14. ¿Qué herramienta valida continuidad y mapa de pares en campo?
+
+- [ ] Certificador (Fluke)
+- [x] Tester básico
+- [ ] Analizador de espectro
+- [ ] OTDR obligatoriamente
+
+## 15. ¿Qué comando muestra direcciones IP y estado up/down de interfaces rápidamente?
+
+- [x] show ip interface brief
+- [ ] show interfaces
+- [ ] show cdp neighbors
+- [ ] show controllers
+
+## 16. ¿Qué indica ‘Gateway of last resort’ en la tabla de rutas?
+
+- [ ] No hay default route
+- [x] Existe una ruta por defecto configurada/aprendida
+- [ ] Se usa solo para estáticas flotantes
+- [ ] Es una ruta conectada
+
+## 17. En BGP, la relación ‘peering’ entre AS suele ser:
+
+- [ ] Cliente-proveedor
+- [x] No pagada entre pares para intercambio local
+- [ ] Exclusivamente internacional
+- [ ] Solo en IXPs globales
+
+## 18. ¿Cuál es un comando útil para ver vecinos y sesiones BGP?
+
+- [x] show ip bgp neighbors
+- [ ] show ip protocols
+- [ ] show ip ospf neighbor
+- [ ] show ip rip database
+
+## 19. ¿Qué dirección IPv4 identifica ‘broadcast dirigido’ a una subred dada?
+
+- [x] La de todos 1 en la parte host de esa subred
+- [ ] 255.255.255.255
+- [ ] 0.0.0.0
+- [ ] 127.255.255.255
+
+## 20. En IPv6, ¿qué tipo de dirección envía al ‘mejor’ receptor desde el punto de vista topológico?
+
+- [ ] Unicast
+- [x] Anycast
+- [ ] Multicast
+- [ ] Broadcast
+===
