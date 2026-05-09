@@ -542,4 +542,4 @@
    - [ ] Área de trabajo
    - [x] **Capa de aplicación**
 
-
+---
