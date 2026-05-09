@@ -535,8 +535,6 @@
    - [ ] TLD → Dominio raíz → Subdominio
    - [ ] Autoritativo → Recursivo → Cliente
 
----
-
 ### 20. Cableado Estructurado
 **En cableado estructurado, ¿cuál NO es un subsistema ISO/IEC 11801?**
    - [ ] Entrada de edificio
