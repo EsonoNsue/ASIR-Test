@@ -2,7 +2,7 @@
 
 ### BLOQUE A
 
-## 1. ¿Cuál es la capa del modelo OSI responsable de enrutar paquetes entre redes?  
+# 1. ¿Cuál es la capa del modelo OSI responsable de enrutar paquetes entre redes?  
    - [ ] Enlace de datos  
    - [x] Red  
    - [ ] Transporte  
