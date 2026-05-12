@@ -2,43 +2,43 @@
 
 ### BLOQUE A
 
-###1. **¿Cuál es la capa del modelo OSI responsable de enrutar paquetes entre redes?**  
+## 1. ¿Cuál es la capa del modelo OSI responsable de enrutar paquetes entre redes?  
    - [ ] Enlace de datos  
    - [x] Red  
    - [ ] Transporte  
    - [ ] Aplicación 
 
-###2. **En el modelo TCP/IP, ¿en qué capa se ubican TCP y UDP?**  
+## 2. ** En el modelo TCP/IP, ¿en qué capa se ubican TCP y UDP?**  
    - [ ] Acceso a la red  
    - [ ] Internet  
    - [x] Transporte  
    - [ ] Aplicación  
 
-###3. **¿Qué protocolo se encarga de traducir una dirección IP a una dirección MAC en una LAN?**  
+## 3. **¿Qué protocolo se encarga de traducir una dirección IP a una dirección MAC en una LAN?**  
    - [ ] ICMP  
    - [ ] DNS  
    - [ ] DHCP  
    - [x] ARP  
 
-###4. **¿Qué campo de una trama Ethernet se usa para detectar errores?**  
+## 4. **¿Qué campo de una trama Ethernet se usa para detectar errores?**  
    - [ ] Tipo/Longitud  
    - [ ] Preamble  
    - [x] FCS (CRC)  
    - [ ] Dirección MAC origen  
 
-###5. **¿Cuál es el tamaño clásico del campo de direcciones MAC en Ethernet?**  
+## 5. **¿Cuál es el tamaño clásico del campo de direcciones MAC en Ethernet?**  
    - [ ] 4 bytes  
    - [x] 6 bytes  
    - [ ] 8 bytes  
    - [ ] 16 bytes  
 
-###6. **¿Cuál es la forma abreviada correcta y más compacta de la dirección IPv6 2001:0db8:0000:0000:0000:00a0:0000:1c20?**  
+## 6. **¿Cuál es la forma abreviada correcta y más compacta de la dirección IPv6 2001:0db8:0000:0000:0000:00a0:0000:1c20?**  
    - [ ] 2001:db8:0:0:a0:0:0:1c20  
    - [ ] 2001:db8::0a0::1c20  
    - [x] 2001:db8::a0:0:1c20  
    - [ ] 2001::db8:a0::1c20  
 
-###7. **¿Qué estándar define Ethernet?**  
+## 7. **¿Qué estándar define Ethernet?**  
    - [ ] IEEE 802.11  
    - [x] IEEE 802.3  
    - [ ] IEEE 802.1Q  
@@ -50,73 +50,73 @@
    - [x] CSMA/CD  
    - [ ] TDMA  
 
-###9. **¿Qué cable usarías para conectar un PC a un switch en redes actuales?**  
+## 9. **¿Qué cable usarías para conectar un PC a un switch en redes actuales?**  
    - [ ] Cruzado (cross-over)  
    - [x] Directo (straight-through)  
    - [ ] Serial DCE  
    - [ ] Coaxial  
 
-###10. **¿Qué tecnología hace innecesario, en muchos casos, distinguir entre cable directo y cruzado?**  
+## 10. **¿Qué tecnología hace innecesario, en muchos casos, distinguir entre cable directo y cruzado?**  
    - [ ] PortFast  
    - [x] Auto-MDI/MDIX  
    - [ ] LACP  
    - [ ] VTP pruning  
 
-###11. **¿Cuál de estas categorías de cobre soporta 10 Gbps hasta 100 m de forma típica en entornos controlados?**  
+## 11. **¿Cuál de estas categorías de cobre soporta 10 Gbps hasta 100 m de forma típica en entornos controlados?**  
    - [ ] Cat 5e  
    - [ ] Cat 6 (≤55 m)  
    - [x] Cat 6A  
    - [ ] Cat 3  
 
-###12. **¿Qué tipo de fibra se recomienda para distancias de decenas de kilómetros?**  
+## 12. **¿Qué tipo de fibra se recomienda para distancias de decenas de kilómetros?**  
    - [ ] Multimodo (MMF)  
    - [x] Monomodo (SMF)  
    - [ ] UTP  
    - [ ] STP  
 
-###13. **¿Qué conector de fibra es pequeño y muy usado en alta densidad?**  
+## 13. **¿Qué conector de fibra es pequeño y muy usado en alta densidad?**  
    - [ ] BNC  
    - [x] LC  
    - [ ] RJ-11  
    - [ ] VGA  
 
-###14. **En una topología en estrella, el dispositivo central suele ser:**  
+## 14. **En una topología en estrella, el dispositivo central suele ser:**  
    - [x] Un hub o switch  
    - [ ] Un router exclusivamente  
    - [ ] Un repetidor  
    - [ ] Un módem  
 
-###15. **¿Qué topología proporciona mayor redundancia de caminos?**  
+## 15. **¿Qué topología proporciona mayor redundancia de caminos?**  
    - [ ] Bus  
    - [ ] Anillo  
    - [ ] Árbol  
    - [x] Malla  
 
-###16. **¿Qué dispositivo reduce dominios de colisión creando uno por puerto?**  
+## 16. **¿Qué dispositivo reduce dominios de colisión creando uno por puerto?**  
    - [ ] Hub  
    - [x] Switch  
    - [ ] Repetidor  
    - [ ] Punto de acceso (AP)  
 
-###17. **¿Qué dispositivo separa dominios de broadcast?**  
+## 17. **¿Qué dispositivo separa dominios de broadcast?**  
    - [ ] Switch capa 2  
    - [ ] Hub  
    - [x] Router  
    - [ ] Bridge  
 
-###18. **¿Cuál es una dirección IPv4 privada clase A?**  
+## 18. **¿Cuál es una dirección IPv4 privada clase A?**  
    - [ ] 172.31.0.0/16  
    - [ ] 192.168.0.0/24  
    - [x] 10.0.0.0/8  
    - [ ] 169.254.0.0/16  
 
-###19. **¿Cuál es la dirección de loopback en IPv4?**  
+## 19. **¿Cuál es la dirección de loopback en IPv4?**  
    - [ ] 0.0.0.0  
    - [ ] 255.255.255.255  
    - [x] 127.0.0.1  
    - [ ] 224.0.0.1  
 
-###20. **¿Qué clase IPv4 tiene máscara por defecto 255.255.0.0?**  
+## 20. **¿Qué clase IPv4 tiene máscara por defecto 255.255.0.0?**  
    - [ ] Clase A  
    - [x] Clase B  
    - [ ] Clase C  
